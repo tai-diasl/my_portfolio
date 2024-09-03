@@ -1,0 +1,256 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+}
+
+nav {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.logo{
+  width: 180px;
+  height: 60px;
+}
+
+#btn-contato{
+  background-color: rgb(152, 15, 164);
+  font-weight: bold;
+  font-size: 10px;
+  transition-duration: 1s;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#btn-contato a {
+  text-decoration: none;
+  color: #000;
+  transition-duration: 1s;
+}
+
+#btn-contato:hover {
+  border: 1px solid #fff;
+  background-color: #8844ee;
+  transition-duration: 1s;
+}
+
+#btn-contato a:hover {
+  color: #fff;
+}
+
+nav > button:hover{
+  padding: 15px 25px 15px 25px;
+  color: white;
+  font-size: 12px;
+  transition-duration: 1s;
+}
+
+section {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #1b1b1bb7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo_profile{
+  width: 300px;
+  height: 500px;
+  border-radius: 50px;
+}
+
+#my_name{
+  font-size: 30px;
+}
+
+#what_I_do{
+  font-size: 40px;
+}
+
+#description{
+  font-size: 18px;
+  margin: 20px;
+}
+
+.enfase {
+  font-size: 22px;
+}
+
+span {
+  color: rgb(152, 15, 164);
+}
+
+.btn-cv,
+#btn-enviar {
+  background-color: black;
+  border: 1px solid rgb(152, 15, 164);
+  box-shadow: 2px 0px 2px rgb(152, 15, 164);
+  color: rgb(152, 15, 164);
+  transition-duration: 1s;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.btn-cv:hover,
+#btn-enviar:hover {
+  padding: 0.85rem 1.35rem;
+  box-shadow: 4px 4px 15px rgb(152, 15, 164);
+  border: 3px solid rgb(152, 15, 164);
+  transition-duration: 1s;
+  font-size: 12px;
+}
+
+#tbl-idiomas {
+  border: 3px solid rgb(152, 15, 164);
+  color: #fff;
+  margin: auto;
+}
+
+td {
+  text-align: center;
+}
+
+.formacao {
+  margin: 1rem 3rem 2rem 3rem;
+}
+
+#contato {
+  background: linear-gradient(45deg, #999edd7a, rgba(152, 15, 164, 0.49));
+}
+
+.container-habilidades {
+  display: flex;
+  width: 100%;
+}
+
+.habilidades {
+  width: 40%;
+  border: 1px solid rgb(152, 15, 164);
+  border-radius: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+.habilidades:hover, .destaque:hover {
+  background: linear-gradient(90deg, #999edd7c, rgb(152, 15, 164));
+  cursor: grab;
+}
+
+.thumbnails {
+  width: 100%;
+  height: 250px;
+  border: 3px solid rgb(152, 15, 164);
+  transition-duration: 0.5s;
+}
+
+.projetos div {
+  list-style: none;
+  margin: 20px;
+  align-items: center;
+  width: 60%;
+}
+
+.projetos {
+  display: flex;
+}
+
+.thumbnails:hover {
+  border: 10px solid #999edd7c;
+}
+
+.projetos a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 0.5rem;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(65, 65, 65, 0.212);
+}
+
+footer a {
+  color: #fff;
+}
+.heart {
+  font-size: 16px;
+}
+
+.tbl-contato label,
+.tbl-contato textarea {
+  display: flex;
+  margin: 20px;
+  font-weight: 300;
+}
+
+#btn-enviar {
+  background-color: #fff;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+}
+
+.tbl-contato input {
+  padding: 0.5rem;
+}
+
+form div {
+  margin-top: 15px;
+}
+
+.row {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row input,
+textarea {
+  padding: 8px;
+  width: 300px;
+  border: transparent;
+  border-radius: 5px;
+  margin: 10px;
+  outline: none;
+}
+
+textarea, 
+.btn-enviar {
+  margin: 2rem;
+}
